@@ -1,0 +1,5 @@
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Entity_Task\bin\Debug\Entity_Task.dll
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Entity_Task\bin\Debug\Entity_Task.pdb
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Entity_Task\obj\Debug\Entity_Task.csproj.CoreCompileInputs.cache
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Entity_Task\obj\Debug\Entity_Task.dll
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Entity_Task\obj\Debug\Entity_Task.pdb

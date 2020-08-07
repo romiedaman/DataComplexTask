@@ -1,0 +1,38 @@
+﻿<Window x:Class="TestWPF.Reservation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestWPF"
+        mc:Ignorable="d"
+        Title="Reservation" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Label Name ="lbl_ReservationID" Visibility="Hidden"  Content="UserID" HorizontalAlignment="Left" Margin="292,13,0,0" VerticalAlignment="Top" Height="35" Width="72"/>
+            <Label Name="lbl_User" Content="User" HorizontalAlignment="Left" Margin="369,14,0,0" VerticalAlignment="Top" Height="35" Width="88"/>
+            <ComboBox Name="cbUser" HorizontalAlignment="Left" Height="35" Margin="464,13,0,0"  VerticalAlignment="Top" Width="318" SelectedValuePath="Path" SelectionChanged="cbUser_SelectionChanged"/>
+            <Label Name="lbl_PhoneNo" Content="Telephone" HorizontalAlignment="Left" Margin="372,75,0,0" VerticalAlignment="Top"/>
+            <TextBox Name="txt_PhoneNO" IsEnabled="False" HorizontalAlignment="Left" Height="35" Margin="464,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="126"/>
+            <Label Name="Email_ID" Content="Email ID" HorizontalAlignment="Left" Margin="595,75,0,0" VerticalAlignment="Top"/>
+            <TextBox Name="txt_EmailID" IsEnabled="False"  HorizontalAlignment="Left" Height="35" Margin="649,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+            <Label Name="lbl_Floor" Content="Floor" HorizontalAlignment="Left" Margin="372,124,0,0" VerticalAlignment="Top" Height="35" Width="88" />
+            <ComboBox Name="cb_Floor" HorizontalAlignment="Left" Height="35" Margin="464,124,0,0"  VerticalAlignment="Top" Width="121" SelectedValuePath="Path" SelectionChanged="cb_Floor_SelectionChanged"/>
+            <Label Name="lbl_Room" Content="Room" HorizontalAlignment="Left" Margin="600,124,0,0" VerticalAlignment="Top" Height="35" Width="88"/>
+            <ComboBox Name="cb_RoomID" HorizontalAlignment="Left" Height="35" Margin="649,124,0,0"  VerticalAlignment="Top" Width="120" SelectedValuePath="Path"/>
+            <Label Name="lbl_NoofGuest" Content="No of Guest" HorizontalAlignment="Left" Margin="372,190,0,0" VerticalAlignment="Top" Height="35" Width="88"/>
+            <TextBox Name="txt_NoofGuest" HorizontalAlignment="Left" Height="35" Margin="461,190,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="318"/>
+            <Label Name="lbl_from" Content="From" HorizontalAlignment="Left"  Margin="372,264,0,0" VerticalAlignment="Top" Height="35" Width="88"/>
+            <DatePicker Name="dt_From" HorizontalAlignment="Left" Margin="464,265,0,0" VerticalAlignment="Top" Height="35" Width="318"/>
+            <Label Name="lbl_To" Content="To" HorizontalAlignment="Left" Margin="372,321,0,0" VerticalAlignment="Top" Height="35" Width="88"/>
+            <DatePicker Name="dt_To" HorizontalAlignment="Left" Margin="464,322,0,0" VerticalAlignment="Top" Height="35" Width="318"/>
+            <Button Name="btn_addReservation" Content="ADD Reservation" HorizontalAlignment="Left" Margin="42,19,0,0" VerticalAlignment="Top" Width="108" Height="35" Click="btn_addReservation_Click"/>
+            <Button Name="btn_Insert" Content="Insert" HorizontalAlignment="Left" Margin="415,375,0,0" VerticalAlignment="Top" Width="75" Click="btn_Insert_Click" IsEnabled="False"/>
+            <Button Name="btn_Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="709,375,0,0" VerticalAlignment="Top" Width="75" Click="btn_Cancel_Click"/>
+            <Button Name="btn_ShowReservation" Content="Show Reservation" HorizontalAlignment="Left" Margin="171,19,0,0" VerticalAlignment="Top" Width="108" Height="35" Click="btn_ShowReservation_Click"/>
+            <DataGrid Name="dgReservation" HorizontalAlignment="Left" Height="184" Margin="10,75,0,0" VerticalAlignment="Top" Width="354" SelectionChanged="dgReservation_SelectionChanged"/>
+            <Button Name ="btn_Update"  Content="Update" HorizontalAlignment="Left" Margin="515,375,0,0" VerticalAlignment="Top" Width="75" Click="btn_Update_Click" IsEnabled="False"/>
+            <Button Name ="btn_delete"  Content="Delete" HorizontalAlignment="Left" Margin="613,375,0,0" VerticalAlignment="Top" Width="75" Click="btn_delete_Click" IsEnabled="False"/>
+           
+        </Grid>
+    </Grid>
+</Window>

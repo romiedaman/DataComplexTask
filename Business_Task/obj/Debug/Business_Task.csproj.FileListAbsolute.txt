@@ -1,0 +1,17 @@
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\Business_Task.dll
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\Business_Task.pdb
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\Entity_Task.dll
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\System.Security.AccessControl.dll
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\System.Security.Permissions.dll
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\Entity_Task.pdb
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\System.Security.AccessControl.xml
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\System.Security.Permissions.xml
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\obj\Debug\Business_Task.csprojAssemblyReference.cache
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\obj\Debug\Business_Task.csproj.CoreCompileInputs.cache
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\obj\Debug\Business_Task.csproj.CopyComplete
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\obj\Debug\Business_Task.dll
+C:\Users\romit\OneDrive\Desktop\Task\TestWPF\Business_Task\obj\Debug\Business_Task.pdb
